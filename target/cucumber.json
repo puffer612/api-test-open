@@ -1,0 +1,327 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T10:22:39.756Z",
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "api \"https://umsauat.niceloo.com/api/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://umsauat.niceloo.com/api/\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.stepApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "yamlParam",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.step3(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 8,
+              "value": "path: test002.yml\ninfo: param"
+            }
+          },
+          {
+            "result": {
+              "duration": 1701000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "getMore",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.stepWhenList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "JSONPATH_ASSERT \"$.[0].result\" equals \"000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$.[0].result",
+                  "offset": 17
+                },
+                {
+                  "val": "000000",
+                  "offset": 39
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.jsonPathAssert(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:22:41.697Z",
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "api \"https://umsauat.niceloo.com/api/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://umsauat.niceloo.com/api/\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.stepApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "yamlParam",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.step3(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 8,
+              "value": "path: test002.yml\ninfo: param"
+            }
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "getMore",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.stepWhenList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "JSONPATH_ASSERT \"$.[0].api\" equals \"uc/user/loginway\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$.[0].api",
+                  "offset": 17
+                },
+                {
+                  "val": "uc/user/loginway",
+                  "offset": 36
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.jsonPathAssert(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:22:41.952Z",
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "api \"https://umsauat.niceloo.com/api/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://umsauat.niceloo.com/api/\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.stepApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "yamlParam",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.step3(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 8,
+              "value": "path: test002.yml\ninfo: param"
+            }
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "getMore",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.stepWhenList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "JSONPATH_ASSERT \"$.[1].result\" equals \"000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$.[1].result",
+                  "offset": 17
+                },
+                {
+                  "val": "000000",
+                  "offset": 39
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.jsonPathAssert(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:22:42.166Z",
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": ";;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "api \"https://umsauat.niceloo.com/api/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://umsauat.niceloo.com/api/\"",
+                  "offset": 4
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.stepApi(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "yamlParam",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.step3(java.lang.String)"
+            },
+            "keyword": "And ",
+            "doc_string": {
+              "line": 8,
+              "value": "path: test002.yml\ninfo: param"
+            }
+          },
+          {
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "getMore",
+            "match": {
+              "location": "com.youlu.step.MCStepDefinitions.stepWhenList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat com.youlu.step.MCStepDefinitions.jsonPathAssert(MCStepDefinitions.java:98)\r\n\tat ✽.JSONPATH_ASSERT \"$.[2].result\" equals \"0000001\"(classpath:features//A0.feature:13)\r\n",
+              "duration": 8000000,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "JSONPATH_ASSERT \"$.[2].result\" equals \"0000001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$.[2].result",
+                  "offset": 17
+                },
+                {
+                  "val": "0000001",
+                  "offset": 39
+                }
+              ],
+              "location": "com.youlu.step.MCStepDefinitions.jsonPathAssert(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  path： yaml 文件的名称\n  info： 是这个yaml的表头\n  这两个都是固定的",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "classpath:features//A0.feature",
+    "tags": []
+  }
+]
